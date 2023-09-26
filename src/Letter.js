@@ -1,7 +1,9 @@
-export default function Letter({ letter, onClick }) {
-    return (
-      <div className="letter" onClick={() => onClick(letter)}>
-        <h2>{letter.char}</h2>
-      </div>
-    );
-  }
+export default function Letter({ letter, isEditEnable, onClick }) {
+
+  const className = 'letter-input ' + letter.Color;
+  return (
+    <div className="letter" onClick={() => onClick(letter)}>
+      <input className={className} disabled={!isEditEnable} maxLength={1} value={letter.Char} />
+    </div>
+  );
+}

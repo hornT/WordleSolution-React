@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-grid{
+
+}
+
+.worlds{
+  color: aqua;
+}
+
+.world{
+  display: flex;
+}
+
+.letter{
+  padding: 5px;
+}
+
+.letter-input{
+  width: 40px;
+  height: 40px;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.button-add{
+  color: aqua;
+}
+
+.white{
+  background-color: white;
+}
+
+.yellow{
+  background-color: yellowgreen;
+}
+
+.green{
+  background-color: green;
+}
+
+.grey{
+  background-color: grey;
+}
